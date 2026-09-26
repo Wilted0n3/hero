@@ -127,3 +127,11 @@ header {
   margin-left: 32px;
   letter-spacing: 2px;
 }
+
+.hero {
+  border: 1.5px solid #cbd5e1;
+  border-right: 20px solid #badcee;
+  border-radius: 0 16px 16px 0;
+  padding: 40px;
+  box-shadow: 4px 4px 10px rgb(0 0 0 / 0.1);
+}
