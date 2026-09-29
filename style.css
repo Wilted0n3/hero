@@ -335,6 +335,13 @@ LAPTOPS TABLETS <1024px
   .hero__img--wrapper {
     max-width: 500px;
   }
+    .hero__img {
+    width: 97%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+
   .hero__description {
     margin-left: 0;
   }
@@ -353,5 +360,13 @@ LAPTOPS TABLETS <1024px
   }
 }
 
-/* SMALL TABLES PHONES */
+/* SMALL PHONES */
 
+@media (max-width: 560px) {
+  .hero__img {
+    width: 80%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+}
